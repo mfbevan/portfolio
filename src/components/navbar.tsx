@@ -12,15 +12,17 @@ export const Navbar = ({
   const buttonMargin = 6
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position='static' sx={{ alignItems: 'center' }}>
+      <AppBar position='fixed' sx={{ alignItems: 'center' }}>
         <Toolbar>
-          <Button color='inherit'>About Me</Button>
+          <Button color='inherit' href='#home'>Home</Button>
           <Box ml={buttonMargin} />
-          <Button color='inherit'>Experience</Button>
+          <Button color='inherit' href='#about-me'>About Me</Button>
           <Box ml={buttonMargin} />
-          <Button color='inherit'>Skills</Button>
+          <Button color='inherit' href='#experience'>Experience</Button>
           <Box ml={buttonMargin} />
-          <Button color='inherit'>Contact</Button>
+          <Button color='inherit' href='#projects'>Projects</Button>
+          <Box ml={buttonMargin} />
+          <Button color='inherit' href='#education'>Education</Button>
           <Box ml={buttonMargin} />
 
           <Button color='inherit' onClick={toggleDarkMode}>

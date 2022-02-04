@@ -1,7 +1,10 @@
 import desk from '../images/desk3.png'
 import { DeveloperTyped } from '.'
+import { useState } from 'react'
 
 export const LandingImage = () => {
+  const [startTyping, setStartTyping] = useState(false)
+
   return (
     <div style={{ position: 'relative' }}>
       <img
@@ -12,6 +15,7 @@ export const LandingImage = () => {
         }}
         src={desk}
         alt='Desk'
+        onLoad={() => setStartTyping(true)}
       />
       <div
         style={{
@@ -22,7 +26,7 @@ export const LandingImage = () => {
           transform: 'translateX(-50%)'
         }}
       >
-        <DeveloperTyped />
+        {startTyping ? <DeveloperTyped /> : ''}
       </div>
     </div>
   )

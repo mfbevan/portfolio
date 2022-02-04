@@ -7,7 +7,7 @@ import { themeDark, themeLight } from './theme'
 import { useState } from 'react'
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(true)
+  const [darkMode, setDarkMode] = useState(false)
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode)
