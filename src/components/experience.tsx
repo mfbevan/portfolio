@@ -210,7 +210,6 @@ export const Experience = () => {
                 icons: [
                   <UnityLogo />,
                   <GithubLogo />,
-                  <PostgresLogo />,
                   <NodeLogo />,
                   <PostgresLogo />,
                   <AWSLogo />,
