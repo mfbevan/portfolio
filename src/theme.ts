@@ -13,7 +13,7 @@ export const themeDark = createTheme({
       primary: '#EEE8DC'
     },
     background: {
-      default: '#343239'
+      default: '#808080'
     },
     divider: '#dcedc8'
   },

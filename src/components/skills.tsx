@@ -51,7 +51,6 @@ export const Skills = () => {
       <Box
         sx={{
           p: 4,
-          bgcolor: 'background.default',
           display: 'grid',
           gap: 4,
           textAlign: 'center',
@@ -68,7 +67,6 @@ export const Skills = () => {
             <Grid item>
               <Box
                 sx={{
-                  bgcolor: 'background.default',
                   display: 'grid',
                   gridTemplateColumns: { md: '1fr 1fr' },
                   gap: 4,
