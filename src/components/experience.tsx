@@ -118,7 +118,7 @@ export const Experience = () => {
                 title: 'Optizmo Technologies, LLC',
                 subtitle: 'Full-Stack Developer (July 2021 - NOW)',
                 desc: `Completing tasks across the Full Stack including Typescript React development on the Frontend, a Typescript Node.js backend,
-                      Terraform infrastructure as code, and PostgreSQL databases where I also gained experience in CI/CD pipelines and Test Driven Development. 
+                      Terraform infrastructure as code, and PostgreSQL databases where I also gained experience in CI/CD pipelines and Test-Driven Development and Behaviour-Driven Development. 
                       This job took place in an Agile environment with daily standups,
                       weekly task grooming sessions and fulfilling a number of rotating roles each sprint. This included many positions including Sprint Boss (Scrum Master), 
                       Tech Support (replying to client queries and concerns and raising bugs appropriately),

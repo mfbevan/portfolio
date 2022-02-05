@@ -25,7 +25,8 @@ import {
   HTMLLogo,
   CSSLogo,
   JavascriptLogo,
-  ConfluenceLogo
+  ConfluenceLogo,
+  MatlabLogo
 } from './logos'
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -99,6 +100,7 @@ export const Skills = () => {
                       <NodeLogo />
                       <PythonLogo />
                       <CSharpLogo />
+                      <MatlabLogo />
                     </Box>
                   </SkillBox>
                   <Box mt={2} />
@@ -181,6 +183,28 @@ export const Skills = () => {
                     </ul>
                   </Typography>
                   <Box mt={2} />
+
+                  <Typography
+                    variant='h5'
+                    align='left'
+                    sx={{ fontFamily: 'Lato', fontWeight: 'bolder' }}
+                  >
+                    Hard Skills
+                  </Typography>
+                  <Box mt={2} />
+                  <Typography
+                    variant='body1'
+                    sx={{
+                      fontFamily: 'Lato',
+                      fontWeight: 'bolder',
+                      textAlign: 'left',
+                      fontSize: 18
+                    }}
+                  >
+                  Highly proficient in Node & Typescript/Javascript for creating front and backend services and deploying them to the cloud through AWS.
+                  I have particular experience in RESTful API development with AWS ECS workers for fast, scalable infrastructure.
+                  Currently learning Solidity and Web3.js
+                  </Typography>
                 </Item>
               </Box>
             </Grid>

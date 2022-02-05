@@ -14,7 +14,9 @@ export const DeveloperTyped = () => {
   const [displaySecondLineCursor, setDisplaySecondLineCursor] = useState(false)
   return (
     <Box sx={{ alignItems: 'center' }}>
-      <Typography variant={'h1'}>
+      <Typography variant={'h1'} sx={{
+        fontSize:'5vw'
+      }}>
         <Typed
           strings={[name]}
           startDelay={startDelay}
@@ -26,7 +28,9 @@ export const DeveloperTyped = () => {
           }}
         />
       </Typography>
-      <Typography variant={'h3'}>
+      <Typography variant={'h3'} sx= {{
+        fontSize: '2.5vw'
+      }}>
         <Typed
           strings={strings}
           startDelay={developerTextDelay}
