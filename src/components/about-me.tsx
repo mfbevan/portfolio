@@ -19,68 +19,83 @@ export const AboutMe = () => {
   across the full-stack.`
 
   const aboutText2 = `My hobbies and passions outside of work include playing and making video games (see some of my projects below), crypto, photography, robotics projects and graphic design. 
-  I love keeping busy and constantly pick up new technologies and applications to try my hand at, with previous experience across the Adobe Create Cloud suite
+  I love keeping busy and constantly pick up new technologies and applications to try my hand at (currently Solidity and Web3.js), with previous experience across the Adobe Create Cloud suite
   (Photoshop, Illustrator, Lightroom), Unity3D Game Development, Autodesk Inventor and Fusion 360. Below you will see an outline of my experience across multiple projects including those through university,
   personal projects and full time work.`
   const aboutText3 = `Feel free to contact me on LinkedIn.`
 
   return (
-    <Box id='about-me' >
-      <Grid container spacing={4}>
-        <Grid item>
-          <Box
-            sx={{
-              p: 4,
-              bgcolor: 'background.default',
-              display: 'grid',
-              gridTemplateColumns: { md: '2fr 1fr' },
-              gap: 4,
-              textAlign: 'center',
-              alignSelf: 'center',
-              paddingLeft: '250px',
-              paddingRight: '250px'
-            }}
-          >
-            <Item elevation={18}>
-              <Typography variant='h4'>About me</Typography>
-              <Box mt={4} />
-              <Typography
-                variant='body1'
-                sx={{ fontFamily: 'Lato', fontWeight: 'bolder', fontSize: 18 }}
-              >
-                {aboutText1}
-              </Typography>{' '}
-              <Box mt={4} />
-              <Typography
-                variant='body1'
-                sx={{ fontFamily: 'Lato', fontWeight: 'bolder', fontSize: 18 }}
-              >
-                {aboutText2}
-              </Typography>{' '}
-              <Box mt={4} />
-              <Typography
-                variant='body1'
-                sx={{ fontFamily: 'Lato', fontWeight: 'bolder', fontSize: 18 }}
-              >
-                {aboutText3}
-              </Typography>
-            </Item>
-            <Item elevation={18}>
-              <img
-                style={{
-                  height: 'auto',
-                  width: '100%',
-                  display: 'block',
-                  textAlign: 'center'
-                }}
-                src={portrait}
-                alt='Portrait'
-              />
-              <Box mt={4} />
-              <a href='https://www.linkedin.com/in/mfbevan/' target='_blank'>
-                <LinkedInLogo />
-              </a>
-              {/* <Box sx={{display: 'inline', marginRight: 4}} />
+    <Box id='about-me'>
+      <Box
+        sx={{
+          p: 4,
+          margin: 'auto',
+          maxWidth: '1400px'
+        }}
+      >
+        <Grid container>
+          <Grid item>
+            <Box
+              sx={{
+                display: 'grid',
+                gridTemplateColumns: { md: '2fr 1fr' },
+                gap: 4,
+                textAlign: 'center',
+                alignSelf: 'center'
+              }}
+            >
+              <Item elevation={18}>
+                <Typography variant='h4'>About me</Typography>
+                <Box mt={4} />
+                <Typography
+                  variant='body1'
+                  sx={{
+                    fontFamily: 'Lato',
+                    fontWeight: 'bolder',
+                    fontSize: 18
+                  }}
+                >
+                  {aboutText1}
+                </Typography>{' '}
+                <Box mt={4} />
+                <Typography
+                  variant='body1'
+                  sx={{
+                    fontFamily: 'Lato',
+                    fontWeight: 'bolder',
+                    fontSize: 18
+                  }}
+                >
+                  {aboutText2}
+                </Typography>{' '}
+                <Box mt={4} />
+                <Typography
+                  variant='body1'
+                  sx={{
+                    fontFamily: 'Lato',
+                    fontWeight: 'bolder',
+                    fontSize: 18
+                  }}
+                >
+                  {aboutText3}
+                </Typography>
+              </Item>
+              <Item elevation={18}>
+                <img
+                  style={{
+                    height: 'auto',
+                    width: '100%',
+                    display: 'block',
+                    textAlign: 'center'
+                  }}
+                  src={portrait}
+                  alt='Portrait'
+                />
+                <Box mt={4} />
+                <a href='https://www.linkedin.com/in/mfbevan/' target='_blank'>
+                  <LinkedInLogo />
+                </a>
+                {/* <Box sx={{display: 'inline', marginRight: 4}} />
               <a href='https://github.com/rationalbitstudios' target='_blank'>
                 <GithubLogo64 />
               </a>
@@ -88,10 +103,11 @@ export const AboutMe = () => {
               <a href='https://github.com/matthewbevan00' target='_blank'>
                 <GithubLogo64 />
               </a> */}
-            </Item>
-          </Box>
+              </Item>
+            </Box>
+          </Grid>
         </Grid>
-      </Grid>
+      </Box>
     </Box>
   )
 }

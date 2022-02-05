@@ -114,3 +114,43 @@ export const DockerLogo = () => (
 export const CloudflareLogo = () => (
   <img src='https://img.icons8.com/color/48/000000/cloudflare.png' />
 )
+
+export const WindowsLogo = () => (
+  <img src='https://img.icons8.com/fluency/48/000000/windows-10.png' />
+)
+
+export const MacOSLogo = () => (
+  <img src='https://img.icons8.com/color/48/000000/mac-os-logo.png' />
+)
+
+export const LinuxLogo = () => (
+  <img src='https://img.icons8.com/color/48/000000/linux--v1.png' />
+)
+
+export const HTMLLogo = () => (
+  <img src='https://img.icons8.com/color/48/000000/html-5--v1.png' />
+)
+
+export const CSSLogo = () => (
+  <img src='https://img.icons8.com/color/48/000000/css3.png' />
+)
+
+export const JavascriptLogo = () => (
+  <img src='https://img.icons8.com/color/48/000000/javascript--v2.png' />
+)
+
+export const ConfluenceLogo = () => (
+  <img src='https://img.icons8.com/fluency/48/000000/confluence.png' />
+)
+
+export const JavaLogo = () => (
+  <img src='https://img.icons8.com/material-outlined/48/000000/java-coffee-cup-logo.png' />
+)
+
+export const SolidityLogo = () => (
+  <img
+    src='https://img.icons8.com/ios-filled/50/000000/solidity.png'
+    width='48px'
+    height='48px'
+  />
+)

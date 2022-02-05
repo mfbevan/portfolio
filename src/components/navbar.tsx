@@ -18,6 +18,8 @@ export const Navbar = ({
           <Box ml={buttonMargin} />
           <Button color='inherit' href='#about-me'>About Me</Button>
           <Box ml={buttonMargin} />
+          <Button color='inherit' href='#skills'>Skills</Button>
+          <Box ml={buttonMargin} />
           <Button color='inherit' href='#experience'>Experience</Button>
           <Box ml={buttonMargin} />
           <Button color='inherit' href='#projects'>Projects</Button>

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import { Box } from '@mui/material'
-import { AboutMe, Experience, LandingImage, Footer } from '../components'
+import { AboutMe, Experience, LandingImage, Footer, Skills } from '../components'
 
 export const LandingPage = () => {
   return (
@@ -10,6 +10,7 @@ export const LandingPage = () => {
         <a id='home' />
         <LandingImage />
         <AboutMe />
+        <Skills />
         <Experience />
         <Footer />
       </Box>

@@ -26,26 +26,26 @@ export const LandingImage = () => {
       />
       {startTyping ? (
         <>
-        <div
-          style={{
-            position: 'absolute',
-            color: 'white',
-            top: '40%',
-            left: '50%',
-            transform: 'translateX(-50%)'
-          }}
-        >
-          <DeveloperTyped />
-        </div>
-        <div
-        style={{
-          position: 'absolute',
-          top: '80%',
-          left: '50%'
-        }}>
-<ScrollIcon />
-        </div>
-        
+          <div
+            style={{
+              position: 'absolute',
+              color: 'white',
+              top: '40%',
+              left: '50%',
+              transform: 'translateX(-50%)'
+            }}
+          >
+            <DeveloperTyped />
+          </div>
+          <div
+            style={{
+              position: 'absolute',
+              top: '80%',
+              left: '50%'
+            }}
+          >
+            <ScrollIcon />
+          </div>
         </>
       ) : (
         <></>

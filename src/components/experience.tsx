@@ -23,7 +23,8 @@ import {
   EthereumLogo,
   BitcoinLogo,
   DockerLogo,
-  CloudflareLogo
+  CloudflareLogo,
+  SolidityLogo
 } from './logos'
 
 type ExperienceType = {
@@ -44,7 +45,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const ExperienceCard = ({ title, subtitle, desc, icons }: ExperienceType) => {
   return (
     <Grid item>
-      <Item elevation={12}>
+      <Item elevation={4}>
         <Box
           sx={{
             textAlign: 'left',
@@ -96,8 +97,8 @@ export const Experience = () => {
           gap: 4,
           textAlign: 'center',
           alignSelf: 'center',
-          paddingLeft: '250px',
-          paddingRight: '250px',
+          margin: 'auto',
+          maxWidth: '1400px',
           paddingTop: 0
         }}
       >
@@ -185,12 +186,14 @@ export const Experience = () => {
                 subtitle: `Ongoing Investment and Learning`,
                 desc: `I have recently begun researching market techincal analysis to inform day trading of cryptocurrencies on the Binance exchange. Recent
                 endeavours have proven successful in an effort to provide myself with an additional income stream and I hope to continue this going forward.
-                This is backed by a huge interest in the crypto sector as a whole with the general goal being to find a permanent position in a crypto-related project`,
+                This is backed by a huge interest in the crypto sector as a whole with the general goal being to find a permanent position in a crypto-related project.
+                To further this, I am currently learning Solidity and Web3.js in spare time.`,
                 icons: [
                   <InvestmentLogo />,
                   <SolanaLogo />,
                   <BitcoinLogo />,
-                  <EthereumLogo />
+                  <EthereumLogo />,
+                  <SolidityLogo />
                 ]
               },
               {
