@@ -14,16 +14,13 @@ export const Navbar = ({
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position='fixed' sx={{ alignItems: 'center' }}>
         <Toolbar>
-          {/* <Typography variant='h6'>Matthew Bevan</Typography> */}
-          <Box ml={buttonMargin} />
-
           <Button color='inherit' href='/'>Resume</Button>
           <Box ml={buttonMargin} />
 
-          {/* <Button color='inherit' href='/nfts'>NFTS</Button>
-          <Box ml={buttonMargin} /> */}
+          <Button color='inherit' href='/nfts'>NFTS</Button>
+          <Box ml={buttonMargin} />
 
-          <Button color='inherit' href='/#about-me'>About Me</Button>
+          {/* <Button color='inherit' href='/#about-me'>About Me</Button>
           <Box ml={buttonMargin} />
           <Button color='inherit' href='/#skills'>Skills</Button>
           <Box ml={buttonMargin} />
@@ -32,7 +29,7 @@ export const Navbar = ({
           <Button color='inherit' href='/#projects'>Projects</Button>
           <Box ml={buttonMargin} />
           <Button color='inherit' href='/#education'>Education</Button>
-          <Box ml={buttonMargin} />
+          <Box ml={buttonMargin} /> */}
 
           <Button color='inherit' onClick={toggleDarkMode}>
             {darkMode ? (

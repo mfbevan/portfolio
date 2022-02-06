@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To deploy, simply push to the `main` branch and CloudFlare will redeploy the site
+
 ## Available Scripts
 
 In the project directory, you can run:

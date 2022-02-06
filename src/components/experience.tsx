@@ -200,7 +200,8 @@ export const Experience = () => {
                 title: 'Portfolio',
                 subtitle: `What you're seeing right now!`,
                 desc: `This site was created using Typescript and React. A combination of Material UI and custom components have been used. 
-                The site is stored in a Github Repo and served up using Github Pages on a custom domain. Try out Dark Mode in the Navbar!
+                The site is stored in a Github Repo and served up using CloudFlare Pages on a custom domain, with an automatic deploy pipeline when a push to master is made.
+                Try out Dark Mode in the Navbar!
                 The icons on this page are from Icons8.com`,
                 icons: [<ReactLogo />, <GithubLogo />, <MUILogo />]
               },
