@@ -20,10 +20,9 @@ export const Navbar = ({
           <Button color='inherit' href='/'>Resume</Button>
           <Box ml={buttonMargin} />
 
-          <Button color='inherit' href='/nfts'>NFTS</Button>
-          <Box ml={buttonMargin} />
+          {/* <Button color='inherit' href='/nfts'>NFTS</Button>
+          <Box ml={buttonMargin} /> */}
 
-          {/* <Box ml={buttonMargin} />
           <Button color='inherit' href='/#about-me'>About Me</Button>
           <Box ml={buttonMargin} />
           <Button color='inherit' href='/#skills'>Skills</Button>
@@ -33,7 +32,7 @@ export const Navbar = ({
           <Button color='inherit' href='/#projects'>Projects</Button>
           <Box ml={buttonMargin} />
           <Button color='inherit' href='/#education'>Education</Button>
-          <Box ml={buttonMargin} /> */}
+          <Box ml={buttonMargin} />
 
           <Button color='inherit' onClick={toggleDarkMode}>
             {darkMode ? (
