@@ -7,7 +7,7 @@ export const themeDark = createTheme({
       main: '#eeeeee'
     },
     secondary: {
-      main: '#9ccc65'
+      main: '#EEE8DC'
     },
     text: {
       primary: '#EEE8DC'
@@ -31,7 +31,7 @@ export const themeLight = createTheme({
       main: '#eeeeee'
     },
     secondary: {
-      main: '#9ccc65'
+      main: '#808080'
     },
     text: {
       primary: '#EEE8DC'

@@ -9,9 +9,17 @@ export const ScrollIcon = () => (
     <div className='chevron'></div>
   </a>
 )
-export const LandingImage = () => {
+export const LandingImage = ({
+  setLoaded
+}: {
+  setLoaded: React.Dispatch<React.SetStateAction<boolean>>
+}) => {
   const [startTyping, setStartTyping] = useState(false)
 
+  const finishLoading = () => {
+    setStartTyping(true)
+    setLoaded(true)
+  }
   return (
     <div style={{ position: 'relative' }}>
       <img
@@ -22,7 +30,7 @@ export const LandingImage = () => {
         }}
         src={desk}
         alt='Desk'
-        onLoad={() => setStartTyping(true)}
+        onLoad={finishLoading}
       />
       {startTyping ? (
         <>
