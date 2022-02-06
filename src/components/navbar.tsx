@@ -1,4 +1,4 @@
-import { Box, AppBar, Toolbar, Button } from '@mui/material'
+import { Box, AppBar, Toolbar, Button, Typography } from '@mui/material'
 import ModeNightIcon from '@mui/icons-material/ModeNight'
 import Brightness5OutlinedIcon from '@mui/icons-material/Brightness5Outlined'
 
@@ -14,18 +14,26 @@ export const Navbar = ({
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position='fixed' sx={{ alignItems: 'center' }}>
         <Toolbar>
-          <Button color='inherit' href='#home'>Home</Button>
+          {/* <Typography variant='h6'>Matthew Bevan</Typography> */}
           <Box ml={buttonMargin} />
-          <Button color='inherit' href='#about-me'>About Me</Button>
+
+          <Button color='inherit' href='/'>Resume</Button>
           <Box ml={buttonMargin} />
-          <Button color='inherit' href='#skills-2'>Skills</Button>
+
+          <Button color='inherit' href='/nfts'>NFTS</Button>
           <Box ml={buttonMargin} />
-          <Button color='inherit' href='#experience'>Experience</Button>
+
+          {/* <Box ml={buttonMargin} />
+          <Button color='inherit' href='/#about-me'>About Me</Button>
           <Box ml={buttonMargin} />
-          <Button color='inherit' href='#projects'>Projects</Button>
+          <Button color='inherit' href='/#skills'>Skills</Button>
           <Box ml={buttonMargin} />
-          <Button color='inherit' href='#education'>Education</Button>
+          <Button color='inherit' href='/#experience'>Experience</Button>
           <Box ml={buttonMargin} />
+          <Button color='inherit' href='/#projects'>Projects</Button>
+          <Box ml={buttonMargin} />
+          <Button color='inherit' href='/#education'>Education</Button>
+          <Box ml={buttonMargin} /> */}
 
           <Button color='inherit' onClick={toggleDarkMode}>
             {darkMode ? (

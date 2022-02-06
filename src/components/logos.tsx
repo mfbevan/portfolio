@@ -230,3 +230,13 @@ export const MatlabLogo = () => (
     <img src='https://img.icons8.com/fluency/48/000000/matlab.png' />
   </Tooltip>
 )
+
+export const ElrondLogo = () => (
+  <Tooltip title='Elrond'>
+    <img
+      src='https://assets.coingecko.com/coins/images/12335/large/elrond3_360.png?1626341589'
+      width='32px'
+      height='32px'
+    />
+  </Tooltip>
+)

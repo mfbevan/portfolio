@@ -17,6 +17,7 @@ export const LandingPage = () => {
     <>
       <Box sx={{ bgcolor: 'background.default' }}>
         <a id='home' />
+        <Box mt={8}/>
         <LandingImage setLoaded={setLoaded} />
         {loaded ? (
           <>
