@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-To deploy, simply push to the `main` branch and CloudFlare will redeploy the site
+See [mfbevan.com](https://mfbevan.com)
 
 ## Available Scripts
 
